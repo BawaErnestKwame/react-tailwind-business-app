@@ -21,7 +21,7 @@ const Hero = () => {
            <span className= 'text-blue-600 relative inline-block'>Startup Fortune 500
         <span className= 'absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60'></span>
         </span>
-        Companies <span className= 'inline-block ml-2 animate-pulse'>⏰</span>
+        Companies.<span className= 'inline-block ml-2 animate-pulse'>⏰</span>
         </h1>
 
         <p className= 'text-gray-600 text-lg md:text-xl max-w-xl'>We believe that technology should work for you—not the other way around. That’s why we’ve built a system that adapts to your needs👔</p>

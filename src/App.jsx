@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
+import CompanyLogo from './Components/CompanyLogo'
+import './App.css'
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
       <div className="overflow-hidden">
       <Navbar/>
       <Hero/>
+      <CompanyLogo/>
       </div>
     </main>
   )
