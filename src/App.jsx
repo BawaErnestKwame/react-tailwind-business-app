@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import CompanyLogo from './Components/CompanyLogo'
 import './App.css'
+import PurposeSection from './PurposeSection'
 
 const App = () => {
   return (
@@ -16,6 +17,8 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <CompanyLogo/>
+
+      <PurposeSection/>
       </div>
     </main>
   )

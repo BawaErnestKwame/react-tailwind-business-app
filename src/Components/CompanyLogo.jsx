@@ -10,7 +10,7 @@ import { img } from 'framer-motion/client'
 const CompanyLogo = () => {
     const logos = [slake, amazon, woo, meu, site ]
   return (
-    <div className= 'w-full overflow-hidden container mx-auto py-20 flex sm:flex-row flex-col sm:items-counter items-start '>
+    <div className= 'w-full overflow-hidden container mx-auto py-20 gap-8 flex sm:flex-row flex-col sm:items-counter items-start '>
         <div className= "w-[300px] shrink-0 text-gray-600 border-l-4 border-blue-600 px-4 bg-white py-2 z-10 sm:text-base text-xl font-semibold text-left ">
             Proud partner at <br/> Hupspot and Segment
         </div>

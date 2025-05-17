@@ -2,3 +2,8 @@
 a{
   text-decoration: none;
 }
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-stop: 100px;
+}
