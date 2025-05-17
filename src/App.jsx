@@ -9,6 +9,7 @@ import ScheduleSection from './ScheduleSection'
 import MonitorSection from './MonitorSection'
 import PricingSection from './PricingSection'
 import SerivicesSection from './SerivicesSection'
+import TestimonialSection from './TestimonialSection'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <MonitorSection/>
       <PricingSection/>
       <SerivicesSection/>
+      <TestimonialSection/>
 
       </div>
     </main>
