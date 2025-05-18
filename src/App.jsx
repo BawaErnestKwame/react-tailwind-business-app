@@ -11,6 +11,7 @@ import PricingSection from './PricingSection'
 import SerivicesSection from './SerivicesSection'
 import TestimonialSection from './TestimonialSection'
 import NewsLetterSection from './NewsLetterSection'
+import FooterSection from './FooterSection'
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
       <SerivicesSection/>
       <TestimonialSection/>
       <NewsLetterSection/>
+      <FooterSection/>
 
       </div>
     </main>

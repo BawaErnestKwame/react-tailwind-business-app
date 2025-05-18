@@ -33,7 +33,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className= "py-20 bg-gray-50">
+    <section className= "py-20 bg-gray-50" id='services'>
       <div className= "container mx-auto px-4 sm:px-6 lg:px-8">
         <div className= "flex flex-col md:flex-row md:justify-between md:items-start gap-12">
           {/* Left Side */}
