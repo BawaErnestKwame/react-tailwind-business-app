@@ -10,6 +10,7 @@ import MonitorSection from './MonitorSection'
 import PricingSection from './PricingSection'
 import SerivicesSection from './SerivicesSection'
 import TestimonialSection from './TestimonialSection'
+import NewsLetterSection from './NewsLetterSection'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <PricingSection/>
       <SerivicesSection/>
       <TestimonialSection/>
+      <NewsLetterSection/>
 
       </div>
     </main>
