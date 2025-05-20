@@ -15,7 +15,7 @@ const PurposeSection = () => {
         }
       ];
   return (
-    <section className= 'w-full bg-gray-50 py-16 sm:px-6 md:px-8' id='about'>
+    <section className= 'w-full px-4 bg-gray-50 py-16 sm:px-6 md:px-8' id='about'>
         
         <div className= "max-w-6xl mx-auto ">
             <div className= "grid md:grid-cols-3 grid-cols-1 gap-8">
@@ -23,6 +23,7 @@ const PurposeSection = () => {
                  <div className="">
             <p className= 'text-sm text-purple-600 font-medium '>ACHIEVE MORE</p>
             <h2 className= 'text-3xl md:w-4/5 w-full md:text-4xl font-bold text-gray-900 '>Purpose of the company is to help your team to aquire skills </h2>
+      
             </div>
            
            
