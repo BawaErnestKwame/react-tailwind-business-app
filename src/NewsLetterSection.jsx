@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsLetterSection = () => {
   return (
-    <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16" id='newsletter'>
       <div className="relative bg-blue-600 rounded-2xl overflow-hidden shadow-xl">
         {/* Decorative gradient overlay (optional) */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-700 to-blue-500 opacity-70 z-0"></div>

@@ -1,6 +1,30 @@
 import React, { useState } from 'react';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+import { motion } from "framer-motion";
+
+export const fadeIn = (direction, delay) => {
+  return {
+    hidden: {
+      y: direction === 'up' ? 40 : direction === 'down' ? -40 : 0,
+      x: direction === 'left' ? 40 : direction === 'right' ? -40 : 0,
+      opacity: 0
+    },
+    show: {
+      y: 0,
+      x: 0,
+      opacity: 1,
+      transition: {
+        type: "spring",
+        duration: 1.25,
+        delay: delay,
+        ease: [0.25, 0.25, 0.25, 0.75],
+      }
+    }
+  };
+};
+
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +38,14 @@ const Navbar = () => {
   ];
 
   return (
-    <div className= 'fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm'>
+    <motion.div 
+
+    variants={fadeIn('down', 0.2)}
+    initial='hidden'
+    whileInView='show'
+    viewport={{once:true}}
+    
+    className= 'fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100 shadow-sm' id='home'>
       <div className= "w-full container max-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 md:h-20 h-16">
         <div className= "flex items-center gap-1 cursor-pointer">
           <div className= "w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"></div>
@@ -77,7 +108,7 @@ const Navbar = () => {
 
 
        
-    </div>
+    </motion.div>
   );
 };
 
